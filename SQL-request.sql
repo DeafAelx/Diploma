@@ -1,4 +1,4 @@
-Задание 1
+-- Задание 1
 SELECT 	c.id, 
 	COUNT(o."inDelivery") 
 FROM "Couriers" AS c
@@ -6,7 +6,7 @@ LEFT OUTER JOIN "Orders" AS o ON c.id = o."courierId"
 WHERE o."finished" != true AND o."cancelled" != true  
 GROUP BY c.id;
 
-Задание 2
+-- Задание 2
 SELECT 	track,
 	CASE
 		WHEN "finished" = true THEN '2'
