@@ -1,7 +1,7 @@
 # Diploma
 
 ## SQL-request
-Задание 1
+### Задание 1
 Я использую это <WHERE o."finished" != true AND o."cancelled"> вместо <WHERE o."inDelivery" = true>, потому что у всех принятых заказов стоит статус <inDelivery = True>, даже у доставленных доставок
 
 
