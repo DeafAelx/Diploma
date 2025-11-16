@@ -7,5 +7,5 @@ def post_create_order():
                          json=data.order_body)
 
 def get_receiving_order(track):
-
     return requests.get(configuration.URL_SERVICE + configuration.RECEIVING_ORDER.format(track))
+
